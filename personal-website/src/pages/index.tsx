@@ -10,16 +10,16 @@ export default function Home() {
       <main className="flex h-screen font-mono justify-center">
         <div className="grid grow grid-rows-3 justify-center">
           <div className="animate-pulse text-xl">
-            Welcome to AJ's Personal Website 2.0
+            Welcome to AJ&apos;s Personal Website 2.0
           </div>
 
           <div className="text-med text-accent">
-            Here you'll get a view into my journey as I dive into personal
+            Here you&apos;ll get a view into my journey as I dive into personal
             growth and software engineering.
           </div>
           <div className="text-med text-accent">
-            I will try to cover what I'm learning, new topics I discover and
-            experiences that seem worthy of recording.
+            I will try to cover what I&apos;m learning, new topics I discover
+            and experiences that seem worthy of recording.
           </div>
         </div>
       </main>
