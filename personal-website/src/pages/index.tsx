@@ -9,8 +9,13 @@ export default function Home() {
     <>
       <main className="flex h-screen font-mono justify-center">
         <div className="grid grow grid-rows-3 justify-center">
-          <div className="animate-pulse text-xl">
-            Welcome to AJ&apos;s Personal Website 2.0
+          <div>
+            <div className="animate-pulse text-xl">
+              Welcome to AJ&apos;s Personal Website 2.0
+            </div>
+            <div className=" text-sm">
+              built with Next JS + TailwindCSS + DaisyUI
+            </div>
           </div>
 
           <div className="text-med text-accent">
