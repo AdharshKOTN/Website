@@ -23,18 +23,28 @@ const aboutme = () => {
           <div className="grid grid-cols-2">
             <div className="text-md text-secondary">Skills</div>
             <ul className="list-none">
-              <li>Web Development</li>
-              <li>Cloud Computing</li>
-              <li>Scripting</li>
-              <li>Automation</li>
-              <li>Containerization</li>
+              <li>Web Development - UI Design and Content Population</li>
+              <li>Cloud Computing for Application Deployment and Management</li>
+              <li>Scripting using APIs and Useful Frameworks</li>
+              <li>Automation on Cloud Platforms</li>
+              <li>Containerization with Docker</li>
             </ul>
           </div>
           <div className="grid grid-cols-2">
             <div className="text-md text-secondary">Work Experience</div>
             <ul className="list-none">
               <li>IBM - Client Engineering</li>
+              <li> - JS front-end and back-end ( Node, Express, Next )</li>
+              <li> - Python scripting</li>
+              <li>
+                {" "}
+                - Red Hat Openshift and Kubernetes ( Deployments, Routing,
+                Standard Cloud Configuration ... )
+              </li>
+              <li> - Watson Studio ( Watson Assistant, Watson Discovery )</li>
+              <li> - Other IBM Technology ( Instana, Aspera ) </li>
               <li>Infosys</li>
+              <li> - ServiceNow, Javascript</li>
             </ul>
           </div>
           <div className="grid grid-cols-2">
@@ -50,7 +60,16 @@ const aboutme = () => {
       </div>
       <div className="divider">Hobbies and Pictures</div>
       <div className="grid grid-rows-2 w-screen justify-center">
-        <div>PC Building and Scavenging</div>
+        <div>PC Building and Parts Scavenging</div>
+        <div>Cooking and Trying New Recipes</div>
+        <div>Software and Hardware Exploration</div>
+        <div>Working Out and Fitness</div>
+        <div>
+          “No man has the right to be an amateur in the matter of physical
+          training. It is a shame for a man to grow old without seeing the
+          beauty and strength of which his body is capable.”
+        </div>
+        <div className="text-xl">More Content coming soon</div>
       </div>
     </>
   );

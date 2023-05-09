@@ -16,6 +16,7 @@ export default function Home() {
             <div className=" text-sm">
               built with Next JS + TailwindCSS + DaisyUI
             </div>
+            <div className=" text-sm">Continuously being updated</div>
           </div>
 
           <div className="text-med text-accent">
